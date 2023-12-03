@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Escape</title>
+        <link href="grid.css" rel="stylesheet" />
+        <link href="style5.css" rel="stylesheet" />
+        <link href="#" rel="stylesheet" />
+    </head>
+<body>
+    <form id="survey" action="https://www.example.com/redball/survey" method="post">
+    <h1>Quick Survey</h1>
+    <div class="form">
+        <label for="fname">First Name</label>
+        <input name ="userF" id="name" type="text" placeholder="first name" required />
+    </div>
+    <div class="form">
+        <label for="lname">Last Name</label>
+        <input name="userL" id="lname" type="text"  placeholder="last name" required>
+    </div>
+
+    <div class="form">
+        <label for="rangeBox">How you like this minigame?<br />(0=bad; 10=amazing)</label>
+        0
+        <input name="rating" id="rangeBox" type="range" value="0" step="1" min="0" max="10"/>
+        10
+     </div>
+
+     <div class="form">
+        <label>Was the puzzle hard?</label>
+        <fieldset class="optGroup">
+           <lable for="fYes">Yes</lable>
+           <input name="sHard" id="fYes" value="yes" type="radio"/>
+           <label for="fNo">No</label>
+           <input name="sHard" id="fNo" value="no" type="radio">
+        </fieldset>
+     </div>
+
+     <div class="form">
+        <label>Will you recommend this to someone else?</label>
+        <fieldset class="optGroup">
+           <lable for="fYes">Yes</lable>
+           <input name="sRecommend" id="fYes" value="yes" type="radio"/>
+           <label for="fNo">No</label>
+           <input name="sRecommend" id="fNo" value="no" type="radio">
+        </fieldset>
+     </div>
+    <div id="buttons">
+        <input type="submit" value="Submit My Survey"/>
+        <input type="reset" value="Cancel"/>
+     </div>
+
+
+
+</form>
+
+</body>
+</html>

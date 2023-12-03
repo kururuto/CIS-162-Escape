@@ -67,7 +67,7 @@ nav.Info
     border-style: solid;
     border-width: 5px;
     width: 120px;
-    margin: -220px 1225px;
+    margin: 150px 1225px;
 }
 
 nav.Info a:visited, nav.Info a:link{
@@ -80,11 +80,40 @@ nav.Info a:hover, nav.Info a:active{
     background-color: black;
 	color: white;
 }
+/*Survey*/
+nav.Survey
+{
+    
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    border-style: solid;
+    border-width: 5px;
+    width: 180px;
+    margin: -220px 880px;
+}
 
+nav.Survey a:visited, nav.Survey a:link{
+    color: black;
+	text-decoration: none;
+}
 
+nav.Survey a:hover, nav.Survey a:active{
+    
+    background-color: black;
+	color: white;
+}
 
+.icon{
+    margin:  100px 700px;
+}
 
-
+.desc{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;  
+    margin:  50px 0px;
+}
 
 
 

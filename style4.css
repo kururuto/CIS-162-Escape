@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 100px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    width: 500px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: green;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation: moveRandomly 2s infinite;
+  }
+  
+  @keyframes moveRandomly {
+    0% {
+      transform: translate(0, 0);
+  }
+  15% {
+    transform: translate(700px, 900px);
+  }
+  25% {
+      transform: translate(1400px, 0);
+  }
+  50% {
+      transform: translate(1400px, 900px);
+  }
+  65% {
+    transform: translate(700px, 450px);
+}
+  75% {
+      transform: translate(0, 900px);
+  }
+  100% {
+      transform: translate(0, 0);
+  }
+}
+
+nav.Hint a:visited, nav.Hint a:link{
+    color: white;
+    text-decoration: none;
+}
+
+nav.Hint a:hover, nav.Hint a:active{
+    
+
+    color: none;
+}
+
+
+
+  

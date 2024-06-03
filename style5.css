@@ -29,3 +29,25 @@ div#buttons {
     margin: 15px;
  }
   
+ nav.Home
+ {
+     
+     text-align: center;
+     font-size: 50px;
+     font-family: 'Courier New', Courier, monospace;
+     border-style: solid;
+     border-width: 5px;
+     width: 241px;
+     margin: 150px 850px;
+ }
+ 
+ nav.Home a:visited, nav.Home a:link{
+     color: black;
+     text-decoration: none;
+ }
+ 
+ nav.Home a:hover, nav.Home a:active{
+     
+     background-color: black;
+     color: white;
+ }

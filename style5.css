@@ -9,7 +9,9 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
   }
-
+h1{
+    text-align: center;
+}
   div {
     border-radius: 5px;
     background-color: #f2f2f2;
